@@ -22,10 +22,7 @@ namespace ConsoleApp3
             {
                 cont++;
                 Console.WriteLine("array "+cont+" tiene :" + cadena[i].Length+" Palabras");
-                //string contador = cadena[i].Length;
-                //Array.Sort(contador);
-
-                //Array.Sort(cadena[i].Length);
+               
             }
            
 
