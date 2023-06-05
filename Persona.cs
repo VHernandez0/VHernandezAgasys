@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,7 +44,18 @@ namespace ConsoleApp3
             Console.WriteLine("El numero de personas menores de edad son: " + Contmayores.ContadorMenores);
             Console.ReadKey();
         }
+
     }
+    [DataContract]
+    public class EmployeName
+    {
+        [DataMember]
+        public string Nombre { get; set; }
+    }
+
+
+
+
 
 
 }

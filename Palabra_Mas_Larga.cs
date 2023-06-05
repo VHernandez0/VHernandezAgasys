@@ -17,7 +17,7 @@ namespace ConsoleApp3
             string[] cadena = str.Split(' ');
 
             int cont = 0;
-
+            
             for (int i = 0; i < cadena.Length; i++)
             {
                 cont++;
